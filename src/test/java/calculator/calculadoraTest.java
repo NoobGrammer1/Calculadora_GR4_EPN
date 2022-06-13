@@ -37,6 +37,17 @@ public class calculadoraTest {
 
         assertEquals(4, c.multiplication(2,2));
     }
+    @Test
+    public void given_two_integers_when_power_then_double(){
+
+        assertEquals(4.0, c.power(2,2));
+    }
+    @Test
+    public void given_two_integers_when_squareRoot_then_double(){
+
+        assertEquals(2.0, c.squareRoot(4));
+    }
+
 }
 
 

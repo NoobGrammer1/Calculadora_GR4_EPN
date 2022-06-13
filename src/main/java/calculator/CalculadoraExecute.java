@@ -13,7 +13,10 @@ public class CalculadoraExecute {
 
         int mul = c.multiplication(1,1);
         System.out.println(" c.multiplication(1,1)= "+mul);
-
+        double pow = c.power(2,3);
+        System.out.println("c.power(2,3) = " + pow);
+        double sr = c.squareRoot(16);
+        System.out.println("c.suareRoot(16):" + sr);
 
 
     }
